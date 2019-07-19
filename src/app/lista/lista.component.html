@@ -1,0 +1,15 @@
+<h1>Listado recetas</h1>
+
+<ngb-accordion *ngIf='resultado.results' #acc="ngbAccordion" activeIds="ngb-panel-0">
+    <ngb-panel *ngFor="let item of resultado.results">
+      <ng-template ngbPanelTitle>
+        <p  style="text-align: center"><span>&#9733; <b>{{ item.title }}</b> &#9733;</span></p>
+      </ng-template>
+      <ng-template ngbPanelContent>
+          <p><b>Ingredientes: </b></p><p>{{item.ingredients}}</p>
+          <p><b>Imagen: </b></p>
+          <img src="{{item.thumbnail}}" border="1" alt="Imagen no disponible" width="20%" height="10%"><br>
+          <a href="{{item.href}}">enlace pagina</a>
+      </ng-template>
+    </ngb-panel>
+  </ngb-accordion>
