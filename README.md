@@ -1,11 +1,11 @@
 # AppPrueba
 
-# Recordar antes que nada hacer un "npm install" del proyecto.
+## Recordar antes que nada hacer un "npm install" del proyecto.
 
-# Para arrancar la aplicacion utilizar el comando "npm start", ya esta configurado para que tire del fichero de configuracion de proxy para poder hacer uso de la api "RecipePuppy".
+## Para arrancar la aplicacion utilizar el comando "npm start", ya esta configurado para que tire del fichero de configuracion de proxy para poder hacer uso de la api "RecipePuppy".
 
 
-###################################################################################################################
+####################################################################################################
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.1.1.
 
 ## Development server
